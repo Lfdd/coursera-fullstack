@@ -12,21 +12,15 @@ h1 {
     color: black;
 }
 
-section {
-    border: 1px solid black;
-    background-color: #808080;
-    margin: 10px;
-}
-
 section>h2 {
     float: left;
     border-bottom: 1px solid black;
     border-left: 1px solid black;
-    margin: 0;
-    width: 250px;
+    margin: 1px;
+    width: 5000px;
     text-align: center;
     font-style: Times;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     height: 50px;
     padding-top: 10px;
@@ -37,11 +31,11 @@ section.palace>h2 {
 }
 
 section.association>h2 {
-    background-color: #D6001C;
+    background-color: #D6002C;
 }
 
 section.bens>h2 {
-    background-color: #D6001C;
+    background-color: #D6003C;
 }
 
 section>p {
