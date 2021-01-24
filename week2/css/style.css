@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: Arial;
+    font-family: Times;
 }
 
 body {
@@ -33,19 +33,19 @@ section>h2 {
 }
 
 section.palace>h2 {
-    background-color: #D6001C;
+    background-color: #ff6600;
 }
 
 section.association>h2 {
-    background-color: #D6001C;
+    background-color: #ff6600;
 }
 
 section.bens>h2 {
-    background-color: #D6001C;
+    background-color: #ff6600;
 }
 
 section>p {
-    padding: 40px 15px 15px 15px;
+    padding: 80px 30px 30px 30px;
 }
 
 .row {
