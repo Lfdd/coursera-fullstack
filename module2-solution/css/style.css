@@ -33,20 +33,19 @@ section>h2 {
 }
 
 section.palace>h2 {
-    background-color: #FC9483;
+    background-color: #D6001C;
 }
 
 section.association>h2 {
-    background-color: #D5B85A;
+    background-color: #D6001C;
 }
 
 section.bens>h2 {
-    color: #e2e2e2;
-    background-color: #610c04;
+    background-color: #D6001C;
 }
 
 section>p {
-    padding: 40px 15px 15px 15px;
+    padding: 50px 30px 50px 30px;
 }
 
 .row {
