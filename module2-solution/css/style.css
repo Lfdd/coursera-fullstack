@@ -19,16 +19,16 @@ section {
 }
 
 section>h2 {
-    float: right;
+    float: left;
     border-bottom: 1px solid black;
     border-left: 1px solid black;
     margin: 0;
-    width: 230px;
+    width: 250px;
     text-align: center;
     font-style: Times;
     font-size: 24px;
     font-weight: bold;
-    height: 45px;
+    height: 50px;
     padding-top: 10px;
 }
 
