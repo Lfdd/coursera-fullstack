@@ -1,80 +1,94 @@
 * {
     box-sizing: border-box;
-    font-family: Helvetica;
+    font-family: Arial;
 }
 
-body {
-    background-color: #d6d6d6;
-}
+div {
+	background-color: white; 
+	border: 3px solid black; 
+	box-sizing: border-box; 
+	margin: 20px; 	
+	padding: 15px;
+	}
 
-h1 {
-    text-align: center;
-    color: black;
-}
+	h1 {
+	  margin-bottom: 15px;
+	  text-align: center; 
+	}
 
-section {
-    border: 1px solid black;
-    background-color: #b5c4d2;
-    margin: 10px;
-}
+	p {
+	  border: 2px solid black;
+	  font-family: Arial; 
+	  font-weight: bold;
+	  text-align: center;  
+	  width: 100px;
+	  position: relative;
+		bottom: 33px;
+		left: 17px; 
+	  float: right; 
+	}
 
-section>h2 {
-    float: right;
-    border-bottom: 1px solid black;
-    border-left: 1px solid black;
-    margin: 0;
-    width: 230px;
-    text-align: center;
-    font-style: Times;
-    font-size: 24px;
-    font-weight: bold;
-    height: 45px;
-    padding-top: 10px;
-}
+	.title1 {
+		{
+		float: left; 
+		border: 2px solid;  
+		}
+		background-color: lightyellow;
+	}
+	.title2 {
+		{
+		float: left; 
+		border: 2px solid;  
+		}
+		background-color: red; 
+	}
+	.title3 {
+		{
+		float: left; 
+		border: 2px solid;  
+		}
+		background-color: #FFE5B4;
+	}
 
-section.palace>h2 {
-    background-color: #76b8db;
-}
+	@media (min-width 992px) {
+		.box1, .box2, .box3
+			
+		.box1 {
+		  width 30%;
+		  
+		}
+		.box2 {
+		  width 30%;
+		 
+		}
+		.box3 {
+		   width 30%;
+		   
+		}
+	}
 
-section.association>h2 {
-    background-color: #4f7acd;
-}
+	@media (min-width 768px) and (max-width 991px) {
+		.box1, .box2, .box3 {
+		.box1 {
+			width 40%;
+		}
+		.box2 {
+			width 40%;
+		}
+		.box3 {
+			width 90%;
+		}
 
-section.bens>h2 {
-    color: #e2e2e2;
-    background-color: #10328a;
-}
+	@media (min-width 767px) {
+		.box1, .box2, .box3 {
 
-section>p {
-    padding: 40px 15px 15px 15px;
-}
-
-.row {
-    width: 100%;
-}
-
-
-@media (max-width: 767px) {
-    .my-sm-col-12 {
-        float: left;
-        width: 100%;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .my-md-col-6 {
-        float: left;
-        width: 50%;
-    }
-    .my-md-col-12 {
-        float: left;
-        width: 100%;
-    }
-}
-
-@media (min-width: 992px) {
-    .my-lg-col-4 {
-        float: left;
-        width: 33.33%;
-    }
-}
+		.box1 {
+			width 100%;
+		}
+		.box2 {
+			width 100%;
+		}
+		.box3 {
+			width 100%;
+		}
+	}
