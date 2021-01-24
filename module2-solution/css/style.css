@@ -52,46 +52,46 @@ section>p {
     width: 100%;
 }
 @media (min-width: 992px) {
-     .large-1, .large-2, .large-3 {
+     .col-large-1, .col-large-2, .col-large-3 {
         float: left;
     }
-    .large-1 {
+    .col-large-1 {
         width: 33.33%;
     }
-    .large-2 {
+    .col-large-2 {
         width: 50%;
     }
-    .large-3 {
+    .col-large-3 {
         width: 100%;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .medium-1, .medium-2, .medium-3 {
+    .col-medium-1, .col-medium-2, .col-medium-3 {
         float: left;
     }
-    .medium-1 {
+    .col-medium-1 {
         width: 33.33%;
     }
-    .medium-2 {
+    .col-medium-2 {
         width: 50%;
     }
-    .medium-3 {
+    .col-medium-3 {
         width: 100%;
     }
 }
 
 @media (max-width: 767px) {
-  .small-1, .small-2, .small-3 {
+  .col-small-1, .col-small-2, .col-small-3 {
         float: left;
     }
-    .small-1 {
+    .col-small-1 {
         width: 33.33%;
     }
-    .small-2 {
+    .col-small-2 {
         width: 50%;
     }
-    .small-3 {
+    .col-small-3 {
         width: 100%;
     }
 }
